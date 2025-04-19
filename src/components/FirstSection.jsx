@@ -33,8 +33,8 @@ function FirstSection() {
           <div className="col-lg-7  ms-5 mt-5 s-image h-font  right">
             {/* Direct image path */}
            <img 
-              src={"/assets/image/LOGOMAIN.PNG"}
-              alt="Main Logo" 
+              src={"./assets/image/LOGOMAIN.PNG"}
+              alt="Mai Logo" 
               className="w-80 " 
               style={{maxWidth:"500px", margin:0}}
             />
