@@ -1,5 +1,4 @@
 import React from 'react';
-import mainbanner from "../../public/assets/image/LOGOMAIN.PNG"
 import "../../assets/css/style.css"
 import "../../assets/css/bootstrap.min.css"
 import Marquee from "react-fast-marquee";
@@ -33,8 +32,8 @@ function FirstSection() {
           {/* Right Column with Main Image */}
           <div className="col-lg-7  ms-5 mt-5 s-image h-font  right">
             {/* Direct image path */}
-            <img 
-              src={mainbanner}
+           <img 
+              src={"../../public/assets/image/LOGOMAIN.PNG"}
               alt="Main Logo" 
               className="w-80 " 
               style={{maxWidth:"500px", margin:0}}
