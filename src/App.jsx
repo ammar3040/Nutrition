@@ -34,7 +34,7 @@ function useAuthRole() {
 function ProtectedRoute({ children }) {
   const { user, loading, role } = useAuthRole();
   if (loading) return <Loader />;
-  if (!user) return <Navigate to="/login" />;
+  
   
   // Automatically redirect admins to admin panel
   if (role === "admin") return <Navigate to="/admin" />;
