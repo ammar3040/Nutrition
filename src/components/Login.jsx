@@ -29,6 +29,7 @@ import "./FormLogin.css"
       }}>
       <div className="auth-container" style={{width:"600px"}}>
         <div className="form-panel" style={{margin:"0 auto",width:"600px",}}>
+          <p>demo :abc@ab.cd pass:123456</p>
           <h2 className="form-title">Sign in</h2>
           {error && <p className="error-message">{error}</p>}
           <form onSubmit={handleLogin} className="LOginForm">
