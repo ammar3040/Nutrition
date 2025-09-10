@@ -65,7 +65,6 @@ function AppWrapper() {
       <main style={{
         width: "100%",
         margin: "0 auto",
-        maxWidth: "1200px",
         overflow: "hidden"
       }}>
         <Routes>
